@@ -1,18 +1,18 @@
 {
-  "name": "vanilla-app-template",
+  "name": "watch-charm",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/vanilla-app-template/",
+    "build": "vite build --base=/united_placeholders/",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.5.2",
     "glob": "^8.1.0"
   },
-  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "author": "Wonderful People",
   "license": "ISC",
   "dependencies": {
     "vite-plugin-full-reload": "^1.0.5",
