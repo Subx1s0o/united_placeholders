@@ -2,4 +2,4 @@
 
 ## :star: **_First Team Project_** :star:
 
-### :blue*heart: \*\*\_Made by wonderful people*\*\* :yellow_heart:
+## :blue_heart: **_Made by wonderful people_** :yellow_heart:
