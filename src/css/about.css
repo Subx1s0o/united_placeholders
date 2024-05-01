@@ -63,3 +63,14 @@
         width: 335px;
         height: 446px;
 }
+
+
+@media (min-width: 768px) {
+        .container {
+                max-width: 768px;
+                padding-left: 32px;
+                padding-right: 32px;
+        }
+
+        
+}
