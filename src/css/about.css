@@ -47,14 +47,16 @@
         font-family: Gilroy;
         font-size: 14px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 400;
         line-height: 18px;
         border-radius: 16px;
         background: #3350E9;
-        width: 160px;
-        height: 48px;
-        flex-shrink: 0;
+        padding: 15px 38px;
         border: none;
+}
+
+.about-btn:hover {
+        background: #1F3CD4;
 }
 
 .about-img {
