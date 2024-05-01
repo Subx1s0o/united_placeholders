@@ -1,7 +1,3 @@
-.container {}
-
-.about-container{
-}
 
 .under-container{
     padding: 40px 20px;
@@ -56,10 +52,6 @@
         background: #1F3CD4;
 }
 
-.about-img {
-        width: 335px;
-        height: 446px;
-}
 
 
 @media (min-width: 768px) {
@@ -72,6 +64,7 @@
         .about-title {
         font-size: 48px;
         letter-spacing: -0.96px;
+        line-height: 44px;
         }
 
         .about-text{
@@ -80,5 +73,24 @@
                 letter-spacing: -0.32px;
         }
 
+        .about-text-second{
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.32px;
+        }
 
+
+}
+
+@media (min-width: 1280px) {
+        .about-container{
+                display: flex;
+                gap: 40px;
+        }
+
+        .under-container{
+                max-width: 580px;
+        }
+
+        
 }
