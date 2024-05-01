@@ -30,6 +30,9 @@
   color: #0c0c0c;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
 
 .header-nav-list {
   display: flex;
@@ -119,19 +122,25 @@
   }
 }
 
+<<<<<<< HEAD
 /* Menu sidebar */
 .menu-sidebar {
   position: fixed;
   top: 0;
   right: 0;
 =======
+=======
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
 /* Menu sidebar */
 .menu-sidebar {
   position: absolute;
   top: 0;
   right: 0;
+<<<<<<< HEAD
   background-color: black;
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
+=======
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
   width: 200px;
   height: 100vh;
   display: flex;
@@ -145,12 +154,18 @@
   pointer-events: none;
   transition-duration: 250ms;
 <<<<<<< HEAD
+<<<<<<< HEAD
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 =======
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
+=======
+  background-image: url('../img/header/header-menu-phone.png');
+  background-repeat: no-repeat;
+  background-position: center;
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
 }
 
 .is-open {
@@ -210,6 +225,9 @@
   align-items: center;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
 
 @media screen and (min-width: 768px) {
   .menu-sidebar {
@@ -225,5 +243,8 @@
     }
   } */
 }
+<<<<<<< HEAD
 =======
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
+=======
+>>>>>>> 6744328 (Хедер практично готовий, усі версії)
