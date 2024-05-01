@@ -63,11 +63,7 @@
 
 
 @media (min-width: 768px) {
-        .container {
-                max-width: 768px;
-                padding-left: 32px;
-                padding-right: 32px;
-        }
+
 
         .under-container{ 
         padding: 80px 60px;
@@ -76,5 +72,13 @@
         .about-title {
         font-size: 48px;
         letter-spacing: -0.96px;
-}
+        }
+
+        .about-text{
+                font-size: 16px;
+                line-height: 20px;
+                letter-spacing: -0.32px;
+        }
+
+
 }
