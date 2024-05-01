@@ -29,6 +29,7 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
+<<<<<<< HEAD
 
 .header-nav-list {
   display: flex;
@@ -123,6 +124,14 @@
   position: fixed;
   top: 0;
   right: 0;
+=======
+/* Menu sidebar */
+.menu-sidebar {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+>>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
   width: 200px;
   height: 100vh;
   display: flex;
@@ -135,10 +144,13 @@
   opacity: 0;
   pointer-events: none;
   transition-duration: 250ms;
+<<<<<<< HEAD
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+=======
+>>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
 }
 
 .is-open {
@@ -197,6 +209,7 @@
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 
 @media screen and (min-width: 768px) {
   .menu-sidebar {
@@ -212,3 +225,5 @@
     }
   } */
 }
+=======
+>>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
