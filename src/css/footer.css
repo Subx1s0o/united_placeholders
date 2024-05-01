@@ -12,22 +12,23 @@ footer .container {
 .footer-div h2 {
   margin-bottom: 20px;
   color: #fbfbfb;
-  font-family: Gilroy;
-  font-size: 20px;
-  font-style: normal;
+  font-size: 16px;
   font-weight: 500;
   line-height: normal;
-  letter-spacing: -0.4px;
+  letter-spacing: -0.32px;
 }
 
 .footer-icons {
   display: flex;
-  color: #fff;
   margin-bottom: 20px;
+  fill: rgba(251, 251, 251, 1);
   gap: 10px;
 }
 
 .footer-icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 8px;
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
@@ -38,7 +39,10 @@ footer .container {
   padding: 14px 20px;
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
-  color: #fff;
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
   margin-bottom: 40px;
 }
 
@@ -47,12 +51,10 @@ footer .container {
 
   text-align: center;
   font-size: 20px;
-  font-style: normal;
   font-weight: 600;
   line-height: 24px; /* 120% */
   letter-spacing: -0.04px;
   margin-bottom: 92px;
-  color: #fbfbfb;
   display: flex;
   justify-content: center;
 }
@@ -82,6 +84,12 @@ footer .container {
 .footer-nav-ul {
   display: flex;
   justify-content: space-between;
+  color: #fbfbfb;
+
+  font-size: 12px;
+
+  font-weight: 500;
+  line-height: 16px; /* 133.333% */
 }
 
 .footer-subnav {
@@ -120,7 +128,13 @@ footer .container {
     padding-bottom: 32px;
   }
 
+  .footer-nav {
+    margin-bottom: 56px;
+  }
+
   .footer-number {
+    font-size: 14px;
+    line-height: 18px;
     margin-bottom: 0;
   }
 
@@ -149,7 +163,7 @@ footer .container {
   }
 
   .footer-address {
-    max-width: 142px;
+    max-width: 162px;
   }
 
   .footer-under-content {
@@ -159,15 +173,29 @@ footer .container {
     line-height: 18px; /* 128.571% */
     letter-spacing: -0.28px;
     font-size: 14px;
-    font-weight: 100;
+  }
+
+  .footer-icons {
+    margin-bottom: 0;
+  }
+
+  .footer-div h2 {
+    font-size: 20px;
+
+    letter-spacing: -0.4px;
+  }
+
+  .footer-nav-ul {
+    line-height: 16px;
+    font-size: 14px;
   }
 }
-
 @media (min-width: 1280px) {
   .footer-title {
     position: absolute;
     top: 40px;
     left: 50%;
+    margin-bottom: 0;
     transform: translate(-50%);
   }
 
