@@ -21,7 +21,6 @@
 
 .about-text {
         color: rgba(12, 12, 12, 0.70);
-        font-family: Gilroy;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -32,7 +31,6 @@
 
 .about-text-second{
         color: rgba(12, 12, 12, 0.70);
-        font-family: Gilroy;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -44,7 +42,6 @@
 .about-btn {
         color: #FBFBFB;
         text-align: center;
-        font-family: Gilroy;
         font-size: 14px;
         font-style: normal;
         font-weight: 400;
@@ -72,5 +69,12 @@
                 padding-right: 32px;
         }
 
-        
+        .under-container{ 
+        padding: 80px 60px;
+        }
+
+        .about-title {
+        font-size: 48px;
+        letter-spacing: -0.96px;
+}
 }
