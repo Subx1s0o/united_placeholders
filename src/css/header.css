@@ -120,7 +120,7 @@
 
 /* Menu sidebar */
 .menu-sidebar {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   width: 200px;
@@ -138,6 +138,7 @@
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .is-open {
