@@ -21,17 +21,19 @@ footer .container {
 .footer-icons {
   display: flex;
   margin-bottom: 20px;
-  fill: rgba(251, 251, 251, 1);
+
   gap: 10px;
 }
 
-.footer-icons li {
+.footer-icons li a {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 8px;
+  fill: rgba(251, 251, 251, 1);
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
+  transition: border-color cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
 }
 
 .footer-number {
@@ -189,6 +191,10 @@ footer .container {
     line-height: 16px;
     font-size: 14px;
   }
+
+  .footer-subnav li a {
+    padding: 15px 0;
+  }
 }
 @media (min-width: 1280px) {
   .footer-title {
@@ -201,5 +207,10 @@ footer .container {
 
   .footer-soc-content {
     margin-bottom: 126px;
+  }
+
+  .footer-icons li a:hover,
+  .footer-icons li a:focus {
+    border-color: #fbfbfb;
   }
 }
