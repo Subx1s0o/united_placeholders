@@ -37,20 +37,7 @@
 }
 
 .about-btn {
-  color: #fbfbfb;
-  text-align: center;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  border-radius: 16px;
-  background: #3350e9;
   padding: 15px 38px;
-  border: none;
-}
-
-.about-btn:hover {
-  background: #1f3cd4;
 }
 
 @media (min-width: 768px) {
