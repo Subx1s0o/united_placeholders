@@ -29,13 +29,6 @@
   letter-spacing: -0.02em;
   color: #0c0c0c;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-=======
->>>>>>> 6a1caf4 (Style fix)
 
 .header-nav-list {
   display: flex;
@@ -83,17 +76,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-duration: 250ms;
 }
 
 .header-social-icon {
   fill: #0c0c0c;
+  transition: fill 250ms;
+}
+
+.header-social-link:hover {
+  border: 1px solid rgba(51, 80, 233, 0.1);
+}
+
+.header-social-link:hover .header-social-icon {
+  fill: #3350e9;
 }
 
 @media screen and (min-width: 1280px) {
-  .header-menu-btn {
-    visibility: hidden;
-  }
-
   .visually-hidden-for-burger {
     position: absolute;
     width: 1px;
@@ -125,31 +124,11 @@
   }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a1caf4 (Style fix)
 /* Menu sidebar */
 .menu-sidebar {
   position: fixed;
   top: 0;
   right: 0;
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-/* Menu sidebar */
-.menu-sidebar {
-  position: absolute;
-  top: 0;
-  right: 0;
-<<<<<<< HEAD
-  background-color: black;
->>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
-=======
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-=======
->>>>>>> 6a1caf4 (Style fix)
   width: 200px;
   height: 100vh;
   display: flex;
@@ -159,33 +138,25 @@
   padding-top: 20px;
   padding-right: 20px;
   padding-left: 20px;
-  opacity: 0;
+  opacity: 1;
   pointer-events: none;
   transition-duration: 250ms;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a1caf4 (Style fix)
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-<<<<<<< HEAD
-=======
->>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
-=======
-  background-image: url('../img/header/header-menu-phone.png');
-  background-repeat: no-repeat;
-  background-position: center;
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-=======
->>>>>>> 6a1caf4 (Style fix)
+  transform: translateY(-100%);
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .menu-sidebar {
+    background-image: url('../img/header/header-menu-phone2x.png');
+  }
 }
 
 .is-open {
-  opacity: 1;
   pointer-events: auto;
+  transform: translateY(0);
 }
 
 .menu-close-icon {
@@ -239,13 +210,6 @@
   justify-content: center;
   align-items: center;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-=======
->>>>>>> 6a1caf4 (Style fix)
 
 @media screen and (min-width: 768px) {
   .menu-sidebar {
@@ -253,19 +217,9 @@
     background-image: url('../img/header/header-tab-phone.png');
   }
 
-  /* @media screen and (min-resolution: 192dpi) {
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .menu-sidebar {
       background-image: url('../img/header/header-tab-phone2x.png');
-      background-repeat: no-repeat;
-      background-position: center;
     }
-  } */
+  }
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
-=======
->>>>>>> 6744328 (Хедер практично готовий, усі версії)
-=======
->>>>>>> 6a1caf4 (Style fix)

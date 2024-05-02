@@ -2,33 +2,34 @@
   <div class="container header-container">
     <a class="header-logo" href="/src/index.html">watchcharm</a>
 
-<<<<<<< HE
     <nav class="visually-hidden-for-header-desktop-nav">
       <ul class="header-nav-list">
-        <li><a class="header-nav-link current" href="">Home</a></li>
-        <li><a class="header-nav-link" href="">About Us</a></li>
-        <li><a class="header-nav-link" href="">Catalog</a></li>
-        <li><a class="header-nav-link" href="">Sale</a></li>
-        <li><a class="header-nav-link" href="">Reviews</a></li>
-        <li><a class="header-nav-link" href="">Contact Us</a></li>
+        <li>
+          <a class="header-nav-link current" href="../index.html">Home</a>
+        </li>
+        <li><a class="header-nav-link" href="./about.html">About Us</a></li>
+        <li><a class="header-nav-link" href="./catalog.html">Catalog</a></li>
+        <li><a class="header-nav-link" href="./sale.html">Sale</a></li>
+        <li><a class="header-nav-link" href="./reviews.html">Reviews</a></li>
+        <li><a class="header-nav-link" href="./contact.html">Contact Us</a></li>
       </ul>
     </nav>
 
     <ul class="header-social-list visually-hidden-for-header-desktop-nav">
       <li>
-        <a class="header-social-link" href=""
+        <a class="header-social-link" href="https://www.facebook.com/goITclub/"
           ><svg class="header-social-icon" width="18" height="18">
             <use href="../img/icons.svg#icon-facebook"></use></svg
         ></a>
       </li>
       <li>
-        <a class="header-social-link" href=""
+        <a class="header-social-link" href="https://www.instagram.com/goitclub/"
           ><svg class="header-social-icon" width="18" height="18">
             <use href="../img/icons.svg#icon-instagram"></use></svg
         ></a>
       </li>
       <li>
-        <a class="header-social-link" href=""
+        <a class="header-social-link" href="https://www.youtube.com/c/GoIT"
           ><svg class="header-social-icon" width="18" height="18">
             <use href="../img/icons.svg#icon-youtube"></use></svg
         ></a>
@@ -36,15 +37,12 @@
     </ul>
 
     <button type="button" class="header-menu-btn visually-hidden-for-burger">
-=======
-    <button type="button" class="header-menu-btn">
->>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
       <svg class="header-menu-icon" width="34" height="34">
         <use href="../img/icons.svg#icon-burger"></use>
       </svg>
     </button>
 
-    <div class="menu-sidebar is-open">
+    <div class="menu-sidebar">
       <button type="button" class="menu-close-btn">
         <svg class="menu-close-icon" width="34" height="34">
           <use href="../img/icons.svg#icon-close"></use>
@@ -64,19 +62,19 @@
 
       <ul class="menu-social-list">
         <li>
-          <a class="menu-social-link" href=""
+          <a class="menu-social-link" href="https://www.facebook.com/goITclub/"
             ><svg class="menu-social-icon" width="18" height="18">
               <use href="../img/icons.svg#icon-facebook"></use></svg
           ></a>
         </li>
         <li>
-          <a class="menu-social-link" href=""
+          <a class="menu-social-link" href="https://www.instagram.com/goitclub/"
             ><svg class="menu-social-icon" width="18" height="18">
               <use href="../img/icons.svg#icon-instagram"></use></svg
           ></a>
         </li>
         <li>
-          <a class="menu-social-link" href=""
+          <a class="menu-social-link" href="https://www.youtube.com/c/GoIT"
             ><svg class="menu-social-icon" width="18" height="18">
               <use href="../img/icons.svg#icon-youtube"></use></svg
           ></a>
@@ -84,4 +82,18 @@
       </ul>
     </div>
   </div>
+
+  <script>
+    const modal = document.querySelector('.menu-sidebar');
+    const modalBtn = document.querySelector('.header-menu-btn');
+    const closeBtn = document.querySelector('.menu-close-btn');
+
+    modalBtn.addEventListener('click', () => {
+      modal.classList.add('is-open');
+    });
+
+    closeBtn.addEventListener('click', () => {
+      modal.classList.remove('is-open');
+    });
+  </script>
 </header>
