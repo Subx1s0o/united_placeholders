@@ -20,17 +20,20 @@
   margin-bottom: 28px;
 }
 
-.about-list {
+.about-list{
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-text {
   color: rgba(12, 12, 12, 0.7);
   font-size: 14px;
   font-style: normal;
   font-weight: 500;
   line-height: 18px;
   letter-spacing: -0.28px;
-  margin-bottom: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
 }
 
 .about-btn {
@@ -69,7 +72,11 @@
     margin-bottom: 40px;
   }
 
-  .about-list {
+  .about-list{
+    margin-bottom: 60px;
+  }
+
+  .about-text {
     font-size: 16px;
     line-height: 20px;
     letter-spacing: -0.32px;
