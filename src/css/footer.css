@@ -33,7 +33,9 @@ footer .container {
   fill: rgba(251, 251, 251, 1);
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
-  transition: border-color cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
+  transition: border-color cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms,
+    opacity cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
+  opacity: 0.8;
 }
 
 .footer-number {
@@ -212,5 +214,6 @@ footer .container {
   .footer-icons li a:hover,
   .footer-icons li a:focus {
     border-color: #fbfbfb;
+    opacity: 1;
   }
 }
