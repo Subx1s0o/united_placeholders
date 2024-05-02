@@ -1,0 +1,40 @@
+.catalog-header {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  color: #0c0c0c;
+}
+
+.catalog-container {
+}
+.catalog-list {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.catalog-list-item {
+}
+.item-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+.item-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.5);
+}
+.hidden {
+}
+.catalog-btn {
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  background: #3350e9;
+  border: transparent;
+  text-align: center;
+  color: #fbfbfb;
+}
