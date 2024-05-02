@@ -40,6 +40,42 @@ body {
   overflow: hidden;
 }
 
+.blue-button {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 16px;
+  background: #3350e9;
+  border: none;
+}
+
+.blue-button:hover,
+.blue-button:focus {
+  background: #1f3cd4;
+}
+
+.animate-me {
+  transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
+}
+
+.soc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  fill: rgba(251, 251, 251, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  opacity: 0.8;
+}
+
+.soc-icon:hover,
+.soc-icon:focus {
+  border-color: #fbfbfb;
+  opacity: 1;
+}
+
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
