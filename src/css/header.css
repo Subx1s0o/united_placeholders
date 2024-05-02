@@ -31,8 +31,11 @@
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
+=======
+>>>>>>> 6a1caf4 (Style fix)
 
 .header-nav-list {
   display: flex;
@@ -123,11 +126,15 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a1caf4 (Style fix)
 /* Menu sidebar */
 .menu-sidebar {
   position: fixed;
   top: 0;
   right: 0;
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
@@ -141,6 +148,8 @@
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
 =======
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
+=======
+>>>>>>> 6a1caf4 (Style fix)
   width: 200px;
   height: 100vh;
   display: flex;
@@ -155,10 +164,14 @@
   transition-duration: 250ms;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6a1caf4 (Style fix)
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+<<<<<<< HEAD
 =======
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
 =======
@@ -166,6 +179,8 @@
   background-repeat: no-repeat;
   background-position: center;
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
+=======
+>>>>>>> 6a1caf4 (Style fix)
 }
 
 .is-open {
@@ -226,8 +241,11 @@
 }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
+=======
+>>>>>>> 6a1caf4 (Style fix)
 
 @media screen and (min-width: 768px) {
   .menu-sidebar {
@@ -244,7 +262,10 @@
   } */
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 8fc3a52 (Майже готова мобільна версія хедера та меню)
 =======
 >>>>>>> 6744328 (Хедер практично готовий, усі версії)
+=======
+>>>>>>> 6a1caf4 (Style fix)
