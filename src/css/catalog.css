@@ -28,13 +28,7 @@
   color: rgba(12, 12, 12, 0.5);
 }
 .hidden {
+  display: none;
 }
 .catalog-btn {
-  border-radius: 16px;
-  width: 160px;
-  height: 48px;
-  background: #3350e9;
-  border: transparent;
-  text-align: center;
-  color: #fbfbfb;
 }
