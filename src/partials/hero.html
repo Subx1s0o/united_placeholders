@@ -1,3 +1,39 @@
-<section>
-  <div class="container"></div>
+<section class="hero">
+  <div class="container">
+<div class="hero-text-people">
+  <div class="hero-text-cont">
+        <h1 class="hero-title">Welcome to our <span class="accent">collection</span> of premium watches</h1>
+        <p class="hero-text">Our watches are not just timepieces, but also an expression of your personality and lifestyle. From classic designs to
+        modern ones, we have a watch to suit every taste and occasion.</p>
+  </div>
+  <div class="hero-wrap">
+          <picture>
+            <source srcset="./img/hero/people-desk.png 1x, 
+                            ./img/hero/people-desk-2x.png 2x " 
+                            media="(min-width: 1280px)" />
+            <source srcset="
+                            ./img/hero/people-tab.png 1x,
+                            ./img/hero/people-tab-2x.png 2x" 
+                            media="(min-width: 768px)" />
+            <source srcset="
+                            ./img/hero/people-mob.png  1x,
+                            ./img/hero/people-mob-2x.png 2x"
+                            media="(max-width: 767px)" />
+            <img src="./img/hero/people-desk.png" alt="people-hero" width="146" height="60" class="hero-image" />
+          </picture>
+        <a href="/src/partials/footer.html" class="hero-btn-scroll">Scroll down</a>
+  </div>
+</div>
+    <picture>
+      <source srcset="./img/hero/watch-desk.jpg 1x, 
+                            ./img/hero/watch-desk-2x.jpg 2x " media="(min-width: 1280px)" />
+      <source srcset="
+                            ./img/hero/watch-tab.jpg 1x,
+                            ./img/hero/watch-tab-2x.jpg 2x" media="(min-width: 768px)" />
+      <source srcset="
+                            ./img/hero/watch-mob.jpg 1x,
+                            ./img/hero/watch-mob-2x.jpg 2x" media="(max-width: 767px)" />
+      <img src="../img/hero/watch-desk.jpg" alt="watch-hero" width="1150" height="500" class="hero-image-watch" />
+    </picture>
+  </div>
 </section>
