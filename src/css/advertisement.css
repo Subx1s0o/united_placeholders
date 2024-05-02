@@ -1,0 +1,45 @@
+
+
+.section {
+    height: 363px;
+    border-radius: 30px;
+    background: #0c0c0c;
+    background-image:
+    url(../img/advertisement/image70-mob.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 60px;
+    padding-left: 28px;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section {
+    background-image: url(../img/advertisement/image70-mob-2x.jpg);
+    }
+}
+
+.section-text {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #fbfbfb;
+}
+.span {
+    color: rgba(251, 251, 251, 0.5);
+}
+.section-btn {
+    border: 1px solid rgba(251, 251, 251, 0.15);
+    border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    margin-top: 28px;
+    margin-left: 20px;
+    color: #fbfbfb;
+    background-color: transparent;
+}
