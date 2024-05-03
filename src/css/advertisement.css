@@ -5,21 +5,17 @@
     border-radius: 30px;
     background: #0c0c0c;
     background-image:
-    url(../img/advertisement/image70-mob.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
+    url(../img/advertisement/image70-mob-1.png);
     background-size: cover;
+    margin: 60px 20px;
     padding-top: 60px;
-    padding-left: 28px;
-    margin-top: 60px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 @media screen and (min-resolution: 2dppx),
 (min-resolution: 192dpi) {
     .section {
-    background-image: url(../img/advertisement/image70-mob-2x.jpg);
+    background-image:
+    url(../img/advertisement/image70-mob-2x.png);
     }
 }
 
@@ -28,8 +24,12 @@
     font-size: 32px;
     line-height: 100%;
     letter-spacing: -0.02em;
+    max-width: 279px;
     color: #fbfbfb;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 .span {
     color: rgba(251, 251, 251, 0.5);
 }
@@ -42,4 +42,72 @@
     margin-left: 20px;
     color: #fbfbfb;
     background-color: transparent;
+    cursor: pointer;
+    transition: background-color 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.section-btn:hover {
+    background-color: #fbfbfb;
+}
+.section-btn:focus {
+    background-color: #fbfbfb;
+}
+
+.btn-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 129%;
+    text-align: center;
+}
+
+.btn-text:hover,
+.btn-text:focus {
+    color: #0c0c0c;
+}
+
+
+@media screen and (min-width: 768px) {
+    .section {
+    padding-left: 32px;
+    background-image:
+    url(../img/advertisement/image70-tab-1.png);
+    }
+
+    .section-text {
+    font-size: 48px;
+    line-height: 92%;
+    max-width: 576px;
+    }
+    .section-btn {
+        margin-left: 24px;
+    }
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+    .section {
+    background-image:
+    url(../img/advertisement/image70-tab-2x.png);
+        }
+}
+}
+
+@media screen and (min-width: 1280px) {
+    .section {
+    height: 298px;
+    background-image:
+    url(../img/advertisement/image70-desk-1.png);
+    display: flex;
+    }
+
+    .section-text {
+    width: 690px;
+    height: 132px;
+    }
+
+@media screen and (min-resolution: 2dppx),
+(min-resolution: 192dpi) {
+.section {
+    background-image:
+    url(../img/advertisement/image70-desk-2x.png);
+}
+}
 }
