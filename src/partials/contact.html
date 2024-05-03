@@ -31,20 +31,16 @@
               type="email"
               name="user-email"
               id="user-email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
               placeholder="Email"
               required
             />
           </label>
 
           <label for="user-tel" class="form-input-wrap">
-            <input
-              class="form-input"
-              type="tel"
-              name="user-tel"
-              id="user-tel"
-              placeholder="+380"
-              required
-            />
+            <input class="form-input" type="tel" name="user-tel" id="user-tel"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$" (+380-XX-XXX-XX-XX)"
+            placeholder="+380" required />
           </label>
           <label for="" class="forn-input-wrap">
             <textarea class="form-comment" name="user-comment">
