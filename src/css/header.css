@@ -17,8 +17,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .header-menu-btn {
@@ -54,6 +52,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 35px 0;
 }
 
 .current {
@@ -63,7 +62,7 @@
 .header-nav-link.current:after {
   content: '';
   position: absolute;
-  top: 20px;
+  bottom: 25px;
   display: block;
   width: 8px;
   height: 8px;
@@ -85,17 +84,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-duration: 250ms;
 }
 
 .header-social-icon {
   fill: #0c0c0c;
-  transition: fill 250ms;
 }
 
 .header-social-link:hover {
   border: 1px solid rgba(51, 80, 233, 0.1);
-  transition: fill 250ms;
 }
 
 .header-social-link:hover .header-social-icon {
@@ -130,6 +126,18 @@
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+
+  .header-logo {
+    padding-top: 37px;
+    padding-bottom: 37px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-logo {
+    padding-top: 28px;
+    padding-bottom: 28px;
+  }
 }
 
 /* Menu sidebar */
@@ -148,24 +156,30 @@
   padding-left: 20px;
   opacity: 0;
   pointer-events: none;
-  transition: 350ms;
+
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center 55px;
   background-size: cover;
-  transform: translateY(-100%);
+  background-color: rgb(14, 14, 14);
+  transform: translateX(100%);
+  z-index: 999;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .menu-sidebar {
     background-image: url('../img/header/header-menu-phone2x.png');
+    background-repeat: no-repeat;
+    background-position: center 55px;
+    background-size: cover;
+    background-color: rgb(14, 14, 14);
   }
 }
 
 .is-open {
   opacity: 1;
   pointer-events: auto;
-  transform: translateY(0);
+  transform: translateX(0);
 }
 
 .menu-close-icon {
@@ -188,6 +202,20 @@
   line-height: 1.28571;
   text-align: center;
   color: #fbfbfb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu-nav-link.current:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 100%;
+  background-color: #3350e9;
 }
 
 .menu-nav-list {
@@ -224,11 +252,19 @@
   .menu-sidebar {
     width: 330px;
     background-image: url('../img/header/header-tab-phone.png');
+    background-repeat: no-repeat;
+    background-position: center 80px;
+    background-size: cover;
+    background-color: rgb(14, 14, 14);
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .menu-sidebar {
       background-image: url('../img/header/header-tab-phone2x.png');
+      background-repeat: no-repeat;
+      background-position: center 80px;
+      background-size: cover;
+      background-color: rgb(14, 14, 14);
     }
   }
 }
