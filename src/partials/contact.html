@@ -13,41 +13,44 @@
           novalidate
           class="form"
         >
-          <div class="form-input-wrap">
+          <label for="user-name" class="form-input-wrap">
             <input
               class="form-input"
               type="text"
               name="user-name"
+              id="user-name"
               placeholder="Name"
               minlength="2"
               required
             />
-          </div>
+          </label>
 
-          <div class="form-input-wrap">
+          <label for="user-email" class="form-input-wrap">
             <input
               class="form-input"
               type="email"
               name="user-email"
+              id="user-email"
               placeholder="Email"
               required
             />
-          </div>
+          </label>
 
-          <div class="form-input-wrap">
+          <label for="user-tel" class="form-input-wrap">
             <input
               class="form-input"
               type="tel"
-              name="user_tel"
+              name="user-tel"
+              id="user-tel"
               placeholder="+380"
               required
             />
-          </div>
-
-          <textarea class="form-comment" name="user-comment">
-Comment
-          </textarea>
-
+          </label>
+          <label for="" class="forn-input-wrap">
+            <textarea class="form-comment" name="user-comment">
+Comment </textarea
+            >
+          </label>
           <button class="submit-btn blue-button animate-me" type="submit">
             Send
           </button>
@@ -59,28 +62,23 @@ Comment
             img/contact/contact-pic.jpg    1x,
             img/contact/contact-pic-2x.jpg 2x
           "
-          media="(max-width:1280px)"
+          media="(min-width:1280px)"
         />
         <source
           srcset="
             img/contact/contact-pic-tab.jpg    1x,
             img/contact/contact-pic-tab-2x.jpg 2x
           "
-          media="(max-width:768px)"
+          media="(min-width:768px)"
         />
         <source
           srcset="
             img/contact/contact-pic-mob.jpg    1x,
             img/contact/contact-pic-mob-2x.jpg 2x
           "
-          media="(max-width:320px)"
+          media="(max-width:767px)"
         />
-        <img
-          src="img/contact/contact-pic-mob.jpg"
-          alt="Black Watch"
-          width="335px"
-          height="512px"
-        />
+        <img src="img/contact/contact-pic-mob.jpg" alt="Black Watch" />
       </picture>
     </div>
   </div>

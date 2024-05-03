@@ -65,6 +65,12 @@
     padding: 12px 226px 12px 14px;
     width: 279px;
     height: 42px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-input:focus{
+    border-color: #3350E9;
+    outline: none;
 }
 
 
@@ -79,6 +85,11 @@
     font-size: 14px;
     line-height: 129%;
     color: #0C0C0C;
+}
+
+.form-comment:focus {
+    border-color: #3350E9;
+    outline: none;
 }
 
 .submit-btn {
