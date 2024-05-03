@@ -90,7 +90,7 @@ body {
     letter-spacing: -0.28px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px){
   .container {
     max-width: 768px;
     padding-left: 32px;
