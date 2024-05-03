@@ -1,3 +1,87 @@
 <section>
-  <div class="container"></div>
+  <div class="container contact-section">
+    <h2 class="contact-titel">Contact Us</h2>
+    <div class="contact-flex">
+      <div class="form-window">
+        <p class="form-subtitel">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+        <form
+          name="cunstomers-contacts"
+          autocomplete="off"
+          novalidate
+          class="form"
+        >
+          <div class="form-input-wrap">
+            <input
+              class="form-input"
+              type="text"
+              name="user-name"
+              placeholder="Name"
+              minlength="2"
+              required
+            />
+          </div>
+
+          <div class="form-input-wrap">
+            <input
+              class="form-input"
+              type="email"
+              name="user-email"
+              placeholder="Email"
+              required
+            />
+          </div>
+
+          <div class="form-input-wrap">
+            <input
+              class="form-input"
+              type="tel"
+              name="user_tel"
+              placeholder="+380"
+              required
+            />
+          </div>
+
+          <textarea class="form-comment" name="user-comment">
+Comment
+          </textarea>
+
+          <button class="submit-btn blue-button animate-me" type="submit">
+            Send
+          </button>
+        </form>
+      </div>
+      <picture class="img-contact">
+        <source
+          srcset="
+            img/contact/contact-pic.jpg    1x,
+            img/contact/contact-pic-2x.jpg 2x
+          "
+          media="(max-width:1280px)"
+        />
+        <source
+          srcset="
+            img/contact/contact-pic-tab.jpg    1x,
+            img/contact/contact-pic-tab-2x.jpg 2x
+          "
+          media="(max-width:768px)"
+        />
+        <source
+          srcset="
+            img/contact/contact-pic-mob.jpg    1x,
+            img/contact/contact-pic-mob-2x.jpg 2x
+          "
+          media="(max-width:320px)"
+        />
+        <img
+          src="img/contact/contact-pic.jpg"
+          alt="Black Watch"
+          width="530"
+          height="556"
+        />
+      </picture>
+    </div>
+  </div>
 </section>
