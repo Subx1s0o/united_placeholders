@@ -13,7 +13,6 @@
 }
 
 .header-container {
-  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -35,6 +34,7 @@
   font-size: 16px;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  padding: 34px;
 }
 
 .header-nav-list {
