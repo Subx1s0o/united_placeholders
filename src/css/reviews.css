@@ -1,0 +1,148 @@
+.reviews-section {
+
+}
+
+.reviews-heading-container {
+    margin-bottom: 24px;
+}
+
+.reviews-heading {
+    font-weight: 600;
+        font-size: 32px;
+        line-height: 100%;
+        letter-spacing: -0.02em;
+        color: #0c0c0c;
+        text-align: left;
+        margin: 0 auto;
+}
+
+.reviews-list {
+
+}
+
+.reviews-item-container {
+    border-radius: 30px;
+        padding: 32px 36px;
+        width: 335px;
+        height: 262px;
+        background: #f3f3f3;
+        margin-top: 56px;
+        margin-bottom: 60px;
+}
+
+.reviews-list-item {
+
+}
+
+.second-review {
+    display: none;
+}
+
+.third-review {
+    display: none;
+}
+
+.reviews-image {
+    margin: 0 auto;
+    margin-bottom: 24px;
+    border-radius: 100%;
+        stroke-width: 2px;
+        stroke: #fbfbfb;
+}
+
+.reviews-list-name {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 125%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: #0c0c0c;
+        margin-bottom: 8px;
+}
+
+.reviews-list-paragraph {
+    font-weight: 500;
+        font-size: 14px;
+        line-height: 129%;
+        letter-spacing: -0.02em;
+        text-align: center;
+        color: rgba(12, 12, 12, 0.4);
+}
+
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .reviews-item-container {
+        width: 344px;
+            height: 272px;
+            gap: 16px;
+    }
+
+    .reviews-heading-container {
+    margin-bottom: 0;
+    }
+
+    .reviews-heading {
+        font-size: 48px;
+            line-height: 92%;
+            letter-spacing: -0.02em;
+            color: #0c0c0c;
+    }
+
+    .reviews-list {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 80px;
+    }
+
+    .second-review {display: flex;
+    }
+
+    .third-review {
+        display: none;
+    }
+
+    .reviews-list-name {
+        font-size: 18px;
+            line-height: 110%;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: #0c0c0c;
+    }
+
+    .reviews-list-paragraph {
+        font-size: 16px;
+            line-height: 125%;
+            letter-spacing: -0.02em;
+            text-align: center;
+            color: rgba(12, 12, 12, 0.4);
+    }
+}
+
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+
+    .reviews-heading-container {
+
+    }
+
+    .reviews-item-container {
+        width: 370px;
+        height: 272px;
+        gap: 20px;
+    }
+
+    .third-review {
+        display: flex;
+    }
+}
