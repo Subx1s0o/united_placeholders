@@ -129,17 +129,17 @@
         padding-right: 65px;
     }
 
-    .reviews-heading-container {
-
-    }
 
     .reviews-list {
         margin-top: 40px;
         margin-bottom: 100px;
+        align-items: center;
+        justify-content: center;
+
     }
 
     .reviews-list-item {
-        width: calc((100% - 3 * 20px) / 3);
+        width: calc((100% * 20px) / 3);
     }
 
     .reviews-item-container {
