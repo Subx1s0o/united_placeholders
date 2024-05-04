@@ -50,8 +50,10 @@ body {
   border: none;
 }
 
-.blue-button:hover {
-  background: #1f3cd4;
+@media (hover: hover) {
+  .blue-button:hover {
+    background: #1f3cd4;
+  }
 }
 
 .animate-me {
