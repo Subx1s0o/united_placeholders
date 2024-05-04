@@ -1,5 +1,5 @@
-.reviews-section {
-    
+.reviews-section .container {
+    padding-bottom: 60px;
 }
 
 .reviews-heading {
@@ -18,18 +18,16 @@
 
 .reviews-list {
             margin-top: 24px;
-                margin-bottom: 60px;
 }
 
-.reviews-item-container {
-    border-radius: 30px;
-        padding: 32px 36px;
-        background: #f3f3f3;
+.reviews-image-container {
 
 }
 
 .reviews-list-item {
-
+    border-radius: 30px;
+        padding: 32px 36px;
+        background: #f3f3f3;
 }
 
 .second-review {
@@ -42,10 +40,10 @@
 
 .reviews-image {
     margin: 0 auto;
-    margin-bottom: 24px;
-    border-radius: 100%;
-        stroke-width: 2px;
-        stroke: #fbfbfb;
+        border-radius: 56px;
+            border: 2px solid #fbfbfb;
+            margin: 0 auto;
+            margin-bottom: 24px;
 }
 
 .reviews-list-name {
@@ -59,12 +57,9 @@
 }
 
 .reviews-list-paragraph {
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 129%;
-        letter-spacing: -0.02em;
         text-align: center;
         color: rgba(12, 12, 12, 0.4);
+        width: 263px;
 }
 
 
@@ -75,12 +70,12 @@
         padding-right: 32px;
     }
 
-    .reviews-item-container {
-            gap: 16px;
-    }
+        .reviews-section {
+            padding-bottom: 80px;
+        }
 
-    .reviews-heading-container {
-    margin-bottom: 0;
+    .reviews-image-container {
+
     }
 
     .reviews-heading {
@@ -94,10 +89,10 @@
         display: flex;
         gap: 16px;
         margin-top: 40px;
-        margin-bottom: 80px;
     }
 
-    .second-review {display: flex;
+    .second-review {
+        display: block;
     }
 
     .third-review {
@@ -113,11 +108,9 @@
     }
 
     .reviews-list-paragraph {
-        font-size: 16px;
-            line-height: 125%;
-            letter-spacing: -0.02em;
             text-align: center;
             color: rgba(12, 12, 12, 0.4);
+            width: 272px;
     }
 }
 
@@ -129,24 +122,30 @@
         padding-right: 65px;
     }
 
+        .reviews-section {
+            padding-bottom: 100px;
+        }
 
     .reviews-list {
         margin-top: 40px;
-        margin-bottom: 100px;
         align-items: center;
         justify-content: center;
 
     }
 
     .reviews-list-item {
-        width: calc((100% * 20px) / 3);
+
     }
 
-    .reviews-item-container {
+    .reviews-image-container {
 
     }
 
     .third-review {
-        display: flex;
+        display: block;
     }
+
+        .reviews-list-paragraph {
+            width: 298px;
+        }
 }
