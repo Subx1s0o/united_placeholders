@@ -160,7 +160,7 @@
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
   background-position: center;
-
+  background-size: cover;
   background-color: rgb(14, 14, 14);
   transform: translateX(100%);
   z-index: 999;
@@ -169,9 +169,6 @@
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .menu-sidebar {
     background-image: url('../img/header/header-menu-phone2x.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-color: rgb(14, 14, 14);
   }
 }
 
@@ -251,19 +248,11 @@
   .menu-sidebar {
     width: 330px;
     background-image: url('../img/header/header-tab-phone.png');
-    background-repeat: no-repeat;
-    background-position: center 80px;
-    background-size: cover;
-    background-color: rgb(14, 14, 14);
   }
 
   @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     .menu-sidebar {
       background-image: url('../img/header/header-tab-phone2x.png');
-      background-repeat: no-repeat;
-      background-position: center 80px;
-      background-size: cover;
-      background-color: rgb(14, 14, 14);
     }
   }
 }
