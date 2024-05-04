@@ -13,10 +13,6 @@
 
 .about-title {
   color: #0c0c0c;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 600;
-  letter-spacing: -0.64px;
   margin-bottom: 28px;
 }
 
@@ -29,11 +25,6 @@
 
 .about-text {
   color: rgba(12, 12, 12, 0.7);
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.28px;
 }
 
 .about-btn {
@@ -52,20 +43,11 @@
   }
 
   .about-title {
-    font-size: 48px;
-    letter-spacing: -0.96px;
-    line-height: 44px;
     margin-bottom: 40px;
   }
 
   .about-list {
     margin-bottom: 60px;
-  }
-
-  .about-text {
-    font-size: 16px;
-    line-height: 20px;
-    letter-spacing: -0.32px;
   }
 }
 
