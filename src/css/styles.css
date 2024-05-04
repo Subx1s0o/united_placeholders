@@ -48,7 +48,6 @@ body {
   border-radius: 16px;
   background: #3350e9;
   border: none;
-  transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
 }
 
 .blue-button:hover,
@@ -77,12 +76,40 @@ body {
   opacity: 1;
 }
 
-@media (min-width: 768px) {
+.new-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.64px;
+}
+
+.granny-p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+@media (min-width: 768px){
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
+
+    .new-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    }
+
+    .granny-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
 }
 
 @media (min-width: 1280px) {
