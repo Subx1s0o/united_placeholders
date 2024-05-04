@@ -174,3 +174,13 @@
   width: 85px;
   height: 32px;
 }
+
+@media (min-width: 768px) {
+  .new-title {
+    margin-bottom: 40px;
+  }
+  .container-list-clock {
+    display: flex;
+    flex-direction: column;
+  }
+}
