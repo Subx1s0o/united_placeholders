@@ -25,4 +25,4 @@ function scrollToSection(sectionId) {
 }
 
 // Коли кнопка буде готова
-buttonLink.addEventListener('click', () => scrollToSection('Айді секції'));
+// buttonLink.addEventListener('click', () => scrollToSection('Айді секції'));
