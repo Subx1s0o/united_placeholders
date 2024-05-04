@@ -15,22 +15,6 @@
 @import url('./contact.css');
 @import url('./footer.css');
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
 body {
   font-family: 'Gilroy', sans-serif;
 }
@@ -56,12 +40,76 @@ body {
   overflow: hidden;
 }
 
-@media (min-width: 768px) {
+.blue-button {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 16px;
+  background: #3350e9;
+  border: none;
+}
+
+.blue-button:hover,
+.blue-button:focus {
+  background: #1f3cd4;
+}
+
+.animate-me {
+  transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
+}
+
+.soc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  fill: rgba(251, 251, 251, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  opacity: 0.8;
+}
+
+.soc-icon:hover,
+.soc-icon:focus {
+  border-color: #fbfbfb;
+  opacity: 1;
+}
+
+.new-title{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.64px;
+}
+
+.granny-p{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    letter-spacing: -0.28px;
+}
+
+@media (min-width: 768px){
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
   }
+
+    .new-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+    }
+
+    .granny-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+}
 }
 
 @media (min-width: 1280px) {
