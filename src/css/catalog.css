@@ -1,4 +1,4 @@
-.section-container {
+.section-container .container {
   padding-bottom: 60px;
 }
 
@@ -92,6 +92,10 @@
     font-weight: 400;
     font-size: 14px;
   }
+
+  .section-container .container {
+    padding-bottom: 80px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -104,5 +108,8 @@
   }
   .item-header {
     max-width: 304px;
+  }
+  .section-container .container {
+    padding-bottom: 100px;
   }
 }
