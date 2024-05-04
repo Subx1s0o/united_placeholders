@@ -159,8 +159,8 @@
 
   background-image: url('../img/header/header-menu-phone.png');
   background-repeat: no-repeat;
-  background-position: center 55px;
-  background-size: cover;
+  background-position: center;
+
   background-color: rgb(14, 14, 14);
   transform: translateX(100%);
   z-index: 999;
@@ -170,8 +170,7 @@
   .menu-sidebar {
     background-image: url('../img/header/header-menu-phone2x.png');
     background-repeat: no-repeat;
-    background-position: center 55px;
-    background-size: cover;
+    background-position: center;
     background-color: rgb(14, 14, 14);
   }
 }
