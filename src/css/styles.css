@@ -54,6 +54,10 @@ body {
   .blue-button:hover {
     background: #1f3cd4;
   }
+  .soc-icon:hover {
+    border-color: #fbfbfb;
+    opacity: 1;
+  }
 }
 
 .animate-me {
@@ -69,12 +73,6 @@ body {
   border-radius: 10px;
   border: 1px solid rgba(251, 251, 251, 0.1);
   opacity: 0.8;
-}
-
-.soc-icon:hover,
-.soc-icon:focus {
-  border-color: #fbfbfb;
-  opacity: 1;
 }
 
 .new-title {
