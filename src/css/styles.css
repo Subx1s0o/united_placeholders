@@ -50,9 +50,14 @@ body {
   border: none;
 }
 
-.blue-button:hover,
-.blue-button:focus {
-  background: #1f3cd4;
+@media (hover: hover) {
+  .blue-button:hover {
+    background: #1f3cd4;
+  }
+  .soc-icon:hover {
+    border-color: #fbfbfb;
+    opacity: 1;
+  }
 }
 
 .animate-me {
@@ -70,10 +75,18 @@ body {
   opacity: 0.8;
 }
 
-.soc-icon:hover,
-.soc-icon:focus {
-  border-color: #fbfbfb;
-  opacity: 1;
+.new-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+}
+
+.granny-p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
 }
 
 @media (min-width: 768px) {
@@ -81,6 +94,20 @@ body {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
+  }
+
+  .new-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+  }
+
+  .granny-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
   }
 }
 
