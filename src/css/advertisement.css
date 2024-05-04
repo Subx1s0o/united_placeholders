@@ -2,9 +2,9 @@
     border-radius: 30px;
     background: #0c0c0c;
     background-image:
-    url(../img/advertisement/image70-mob-1.png);
+    url(../img/advertisement/image70-mob-1x.png);
     background-size: cover;
-    margin: 60px 20px;
+    margin-top: 60px;
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 28px;
@@ -91,9 +91,11 @@
     .section {
     background-image:
     url(../img/advertisement/image70-desk-1.png);
+    padding-bottom: 80px;
     padding-left: 80px;
     display: flex;
     gap: 80px;
+    align-items: baseline;
     }
 
 .section-text {
