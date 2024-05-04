@@ -66,6 +66,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .catalog-list-item {
