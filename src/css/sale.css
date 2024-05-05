@@ -1,9 +1,9 @@
-.sale {
-  margin-bottom: 24px;
+.sale-section {
+  padding-bottom: 60px;
 }
 
-.all-cardss {
-  padding-bottom: 60px;
+.sale {
+  margin-bottom: 24px;
 }
 
 .card-list {
@@ -16,7 +16,14 @@
   display: flex;
   gap: 5px;
 }
-.content {
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-clock {
   padding: 13px 14px;
   background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -28,7 +35,6 @@
   border-radius: 30px;
   background: #f3f3f3;
   padding: 50px;
-  margin-bottom: 20px;
 }
 
 .aside {
@@ -98,103 +104,39 @@
 .present-functional {
   display: flex;
   flex-wrap: wrap;
-  max-width: 279px;
+  max-width: 398px;
   gap: 8px;
 }
 
-.functional-1 {
+.functional-tag {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.33;
   color: #fbfbfb;
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 8px;
-  width: 128px;
-  height: 32px;
+  padding: 8px 12px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: row;
   gap: 4px;
-}
-
-.functional-2 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  width: 123px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
-  gap: 4px;
-}
-
-.functional-3 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  padding: 8px 12px;
-  width: 64px;
-  height: 32px;
-}
-
-.functional-4 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  padding: 8px 12px;
-  width: 58px;
-  height: 32px;
-}
-
-.functional-5 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  padding: 8px 12px;
-  width: 94px;
-  height: 32px;
-}
-
-.functional-6 {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 1.33;
-  color: #fbfbfb;
-  border: 1px solid rgba(251, 251, 251, 0.2);
-  border-radius: 8px;
-  padding: 8px 12px;
-  width: 85px;
-  height: 32px;
 }
 
 @media (min-width: 768px) {
+  .sale-section {
+    padding-bottom: 80px;
+  }
+  .all-cards {
+    gap: 40px;
+  }
   .sale {
     margin-bottom: 40px;
-  }
-
-  .all-cardss {
-    padding-bottom: 80px;
   }
 
   .card-list {
     display: flex;
     flex-direction: row;
-    margin-bottom: 40px;
   }
 
   .container-list-clock {
@@ -206,7 +148,7 @@
     border-radius: 20px;
   }
 
-  .content {
+  .list-clock {
     padding: 16px 18px;
   }
 
@@ -216,10 +158,8 @@
   }
 
   .box-content {
-    width: 436px;
+    max-width: 436px;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     flex-direction: column;
     gap: 10px;
   }
@@ -234,30 +174,23 @@
   .present {
     margin-bottom: 40px;
   }
-  .present-functional {
-    margin-right: 246px;
-  }
 }
 
 @media (min-width: 1280px) {
-  .all-cardss {
+  .sale-section {
     padding-bottom: 100px;
   }
-
   .clock-present {
     padding: 80px 50px;
-    gap: 40px;
   }
 
-  .all-cardss {
-    display: flex;
+  .all-cards {
     flex-direction: row;
-    gap: 40px;
   }
   .box-content {
-    width: 389px;
+    max-width: 389px;
   }
   .present {
-    width: 410px;
+    max-width: 410px;
   }
 }
