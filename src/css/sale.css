@@ -1,15 +1,24 @@
 .sale {
   margin-bottom: 24px;
 }
+
+.all-cardss {
+  padding-bottom: 60px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .container-list-clock {
   display: flex;
-  flex-direction: row;
   gap: 5px;
-  margin-bottom: 20px;
 }
 .content {
   padding: 13px 14px;
-  background: #fbfbfb;
+  background: #f3f3f3;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
 }
@@ -26,7 +35,6 @@
   border-radius: 30px;
   background: #3350e9;
   padding: 48px 28px;
-  margin-bottom: 60px;
 }
 
 .aside-content {
@@ -90,6 +98,7 @@
 .present-functional {
   display: flex;
   flex-wrap: wrap;
+  max-width: 279px;
   gap: 8px;
 }
 
@@ -178,6 +187,10 @@
     margin-bottom: 40px;
   }
 
+  .all-cardss {
+    padding-bottom: 80px;
+  }
+
   .card-list {
     display: flex;
     flex-direction: row;
@@ -186,7 +199,6 @@
 
   .container-list-clock {
     flex-direction: column;
-    margin-right: 20px;
     gap: 10px;
   }
 
@@ -204,11 +216,11 @@
   }
 
   .box-content {
+    width: 436px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    margin-right: 208px;
     gap: 10px;
   }
 
@@ -228,16 +240,24 @@
 }
 
 @media (min-width: 1280px) {
-  .card-list {
-    margin-bottom: 0;
+  .all-cardss {
+    padding-bottom: 100px;
   }
 
   .clock-present {
     padding: 80px 50px;
+    gap: 40px;
   }
 
   .all-cardss {
     display: flex;
     flex-direction: row;
+    gap: 40px;
+  }
+  .box-content {
+    width: 389px;
+  }
+  .present {
+    width: 410px;
   }
 }
