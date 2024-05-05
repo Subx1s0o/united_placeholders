@@ -2,17 +2,17 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.hero-text-people{
-    margin-bottom: 28px;
+.hero-text-people {
+  margin-bottom: 28px;
 }
 
 .hero-title {
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 0.95;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-    margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
 }
 
 .accent {
@@ -20,54 +20,52 @@
 }
 
 .hero-text {
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    color: rgba(12, 12, 12, 0.7);
-    margin-bottom: 28px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+  margin-bottom: 28px;
 }
-.hero-wrap{
+.hero-wrap {
   display: flex;
-  align-items:baseline;
+  align-items: flex-end;
   justify-content: space-between;
 }
 
-.hero-image {
-}
-.hero-circles{
+.hero-circles {
   position: relative;
   display: flex;
+  width: 108px;
 }
 
-.people-two{
+.people-two {
   position: absolute;
   left: 32px;
   z-index: 2;
 }
 
-.people-tree{
+.people-tree {
   position: absolute;
   left: 64px;
   z-index: 3;
 }
 
-.hero-circle{
+.hero-circle {
   height: 44px;
   width: 44px;
   border-radius: 100%;
-  border: 2x solid #fbfbfb;
-  background-color: #F3F3F3;
+  border: 2px solid #fbfbfb;
+  background-color: #f3f3f3;
   overflow: hidden;
-
 }
 
 .hero-scroll {
-    font-size: 14px;
-    line-height: 1.3;
-    letter-spacing: -0.02em;
-    position: relative;
+  font-size: 14px;
+  line-height: 1.3;
+  letter-spacing: -0.02em;
+  position: relative;
 }
 .hero-scroll ::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 1px;
   display: block;
@@ -82,61 +80,55 @@
   color: #3350e9;
 }
 
-.hero-image-watch{
-  border-radius: 30px;
-  width: 100%;
-  background: rgba(12, 12, 12, 0.2);
-}
-
 @media screen and (min-width: 768px) {
-    .hero .container{
-      padding-top: 80px;
-      padding-bottom: 80px;
-    }
+  .hero .container {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
 
-    .hero-text-people{
-      display: flex;
-    }
+  .hero-text-people {
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .hero-title{
-      font-size: 70px;
-      /* line-height: 0.8; */
-      max-width: 597px;
-    }
+  .hero-title {
+    font-size: 70px;
+  }
 
-      .hero-text{
-      width: 480px;
-      font-size: 16px;
-      line-height: 1.25;
-      margin-bottom: 0;
-      }
+  .hero-text {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 0;
+  }
 
-      .hero-wrap{
-        flex-direction: column;
-        /* align-items: end; */
-      }
+  .hero-wrap {
+    flex-direction: column;
+  }
 
-      .people-two {
-        position: absolute;
-        left: 41px;
-        z-index: 2;
-      }
-      
-      .people-tree {
-        position: absolute;
-        left: 82px;
-        z-index: 3;
-      }
+  .people-two {
+    position: absolute;
+    left: 41px;
+    z-index: 2;
+  }
 
-      .hero-circle{
-        height: 56px;
-        width: 56px;
-      }
+  .people-tree {
+    position: absolute;
+    left: 82px;
+    z-index: 3;
+  }
 
-      .hero-scroll{
-        font-size: 20px;
-        line-height: 1;
-      }
+  .hero-circle {
+    height: 56px;
+    width: 56px;
+  }
+
+  .hero-scroll {
+    font-size: 20px;
+  }
+  .hero-circles {
+    width: 136px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -144,32 +136,35 @@
     padding-top: 80px;
     padding-bottom: 100px;
   }
-    .hero-title {
-      font-size: 72px;
-      /* line-height: 0.9; */
-      /* min-width: 597px; */
-      /* max-width: 597px; */
-    }
+  .hero-title {
+    font-size: 72px;
+    /* line-height: 0.9; */
+    /* min-width: 597px; */
+    /* max-width: 597px; */
+  }
 
-    .hero-text-people{
-      justify-content: space-between;
-    }
+  .hero-text-cont {
+    max-width: 597px;
+  }
 
-    .people-two {
+  .people-two {
     left: 44px;
-}
+  }
 
-    .people-tree {
+  .people-tree {
     left: 88px;
-}
+  }
 
-    .hero-circle {
+  .hero-circle {
     height: 60px;
     width: 60px;
-}
+  }
 
-    .hero-scroll{
-        font-size: 20px;
-    }
-}
+  .hero-circles {
+    width: 146px;
+  }
 
+  .hero-scroll {
+    font-size: 20px;
+  }
+}
