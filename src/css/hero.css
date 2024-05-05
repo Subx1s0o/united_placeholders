@@ -21,8 +21,6 @@
 
 .hero-text {
     font-weight: 500;
-    font-size: 14px;
-    line-height: 1.28;
     letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     margin-bottom: 28px;
@@ -35,15 +33,38 @@
 
 .hero-image {
 }
+.hero-circles{
+  position: relative;
+  display: flex;
+}
 
+.people-two{
+  position: absolute;
+  left: 32px;
+  z-index: 2;
+}
+
+.people-tree{
+  position: absolute;
+  left: 64px;
+  z-index: 3;
+}
+
+.hero-circle{
+  height: 44px;
+  width: 44px;
+  border-radius: 100%;
+  border: 2x solid #fbfbfb;
+  background-color: #F3F3F3;
+  overflow: hidden;
+
+}
 
 .hero-scroll {
     font-size: 14px;
     line-height: 1.3;
     letter-spacing: -0.02em;
-    display:flex;
-    
-    /* position: absolute; */
+    position: relative;
 }
 .hero-scroll ::after {
   content: "";
@@ -51,11 +72,11 @@
   height: 1px;
   display: block;
   width: 100%;
-  background-color: #3350e9;
+  background-color: #0c0c0c;
 }
 
-/* .hero-btn-scroll{
-  position: relative;
+/* !.hero-scroll ::after :focus{
+  color: #3350e9;
 } */
 
 .hero-scroll :focus {
@@ -83,7 +104,7 @@
 
     .hero-title{
       font-size: 70px;
-      line-height: 0.8;
+      /* line-height: 0.8; */
       max-width: 597px;
     }
 
@@ -96,7 +117,24 @@
 
       .hero-wrap{
         flex-direction: column;
-        align-items: end;
+        /* align-items: end; */
+      }
+
+      .people-two {
+        position: absolute;
+        left: 41px;
+        z-index: 2;
+      }
+      
+      .people-tree {
+        position: absolute;
+        left: 82px;
+        z-index: 3;
+      }
+
+      .hero-circle{
+        height: 56px;
+        width: 56px;
       }
 
       .hero-scroll{
@@ -112,13 +150,26 @@
   }
     .hero-title {
       font-size: 72px;
-      line-height: 0.9;
-      min-width: 597px;
+      /* line-height: 0.9; */
+      /* min-width: 597px; */
     }
 
     .hero-text-people{
       justify-content: space-between;
     }
+
+    .people-two {
+    left: 44px;
+}
+
+    .people-tree {
+    left: 88px;
+}
+
+    .hero-circle {
+    height: 60px;
+    width: 60px;
+}
 
     .hero-scroll{
         font-size: 20px;
