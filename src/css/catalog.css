@@ -37,6 +37,9 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   margin-bottom: 8px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 .item-text {
   font-weight: 400;
@@ -63,6 +66,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     gap: 32px 16px;
+    margin-bottom: 0;
   }
 
   .catalog-list-item {
@@ -84,9 +88,6 @@
     font-weight: 500;
     font-size: 20px;
     max-width: 280px;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
   }
   .item-text {
     font-weight: 400;
