@@ -26,12 +26,8 @@
 }
 
 .section-text {
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 100%;
-    letter-spacing: -0.02em;
     color: #fbfbfb;
-    padding-bottom: 28px;
+    margin-bottom: 28px;
 }
 
 
@@ -83,9 +79,7 @@
     }
 
     .section-text {
-    font-size: 48px;
-    line-height: 92%;
-    letter-spacing: -0.02em;
+    margin-bottom: 32px;
     }
 
 @media screen and (min-resolution: 2dppx),
@@ -115,6 +109,7 @@
 
     .section-text{
     max-width: 690px;
+    margin-bottom: 0;
     }
     
     .section-btn {
