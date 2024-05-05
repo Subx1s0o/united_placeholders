@@ -1,0 +1,196 @@
+.sale-section {
+  padding-bottom: 60px;
+}
+
+.sale {
+  margin-bottom: 24px;
+}
+
+.card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.container-list-clock {
+  display: flex;
+  gap: 5px;
+}
+
+.all-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.list-clock {
+  padding: 13px 14px;
+  background: #f3f3f3;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+}
+
+.clock-present {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  padding: 50px;
+}
+
+.aside {
+  border-radius: 30px;
+  background: #3350e9;
+  padding: 48px 28px;
+}
+
+.aside-content {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  margin-bottom: 20px;
+}
+
+.product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.prise-present-sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+.prise-sale {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prise {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.present {
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+.present-functional {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 398px;
+  gap: 8px;
+}
+
+.functional-tag {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+}
+
+@media (min-width: 768px) {
+  .sale-section {
+    padding-bottom: 80px;
+  }
+  .all-cards {
+    gap: 40px;
+  }
+  .sale {
+    margin-bottom: 40px;
+  }
+
+  .card-list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .container-list-clock {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .list-clock {
+    border-radius: 20px;
+  }
+
+  .list-clock {
+    padding: 16px 18px;
+  }
+
+  .clock-present {
+    padding: 80px 112px;
+    border-radius: 50px;
+  }
+
+  .box-content {
+    max-width: 436px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .aside {
+    padding: 60px;
+    border-radius: 50px;
+  }
+  .prise-present-sale {
+    margin-bottom: 30px;
+  }
+  .present {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sale-section {
+    padding-bottom: 100px;
+  }
+  .clock-present {
+    padding: 80px 50px;
+  }
+
+  .all-cards {
+    flex-direction: row;
+  }
+  .box-content {
+    max-width: 389px;
+  }
+  .present {
+    max-width: 410px;
+  }
+}
