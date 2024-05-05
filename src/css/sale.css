@@ -1,0 +1,222 @@
+.sale {
+  margin-bottom: 24px;
+}
+.container-list-clock {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+.content {
+  padding: 13px 14px;
+  background: #fbfbfb;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 16px;
+}
+
+.clock-present {
+  max-width: 335px;
+  height: 385px;
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 30px;
+  background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.aside {
+  border-radius: 30px;
+  background: #3350e9;
+  padding: 48px 28px;
+  margin-bottom: 60px;
+}
+
+.aside-content {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.box-content {
+  margin-bottom: 20px;
+}
+
+.product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.prise-present-sale {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 28px;
+}
+
+.prise-sale {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  border-radius: 8px;
+  width: 68px;
+  height: 32px;
+  background: rgba(251, 251, 251, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prise {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.present {
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 28px;
+}
+
+.present-functional {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.functional-1 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  width: 128px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.functional-2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  width: 123px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 4px;
+}
+
+.functional-3 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 64px;
+  height: 32px;
+}
+
+.functional-4 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 58px;
+  height: 32px;
+}
+
+.functional-5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 94px;
+  height: 32px;
+}
+
+.functional-6 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding: 8px 12px;
+  width: 85px;
+  height: 32px;
+}
+
+@media (min-width: 768px) {
+  .sale {
+    margin-bottom: 40px;
+  }
+
+  .container-list-clock {
+    width: 132px;
+    height: 558px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-clock {
+    width: 132px;
+    height: 132px;
+    border-radius: 20px;
+  }
+  .content {
+    padding: 16px 18px;
+  }
+  .box-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 208px;
+    gap: 10px;
+  }
+
+  .aside {
+    padding: 60px;
+    border-radius: 50px;
+  }
+  .prise-present-sale {
+    margin-bottom: 30px;
+  }
+  .present {
+    margin-bottom: 40px;
+  }
+  .present-functional {
+    margin-right: 246px;
+  }
+}
