@@ -235,4 +235,9 @@
   .clock-present {
     padding: 80px 50px;
   }
+
+  .all-cardss {
+    display: flex;
+    flex-direction: row;
+  }
 }
