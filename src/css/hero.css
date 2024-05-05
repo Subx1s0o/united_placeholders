@@ -75,10 +75,6 @@
   background-color: #0c0c0c;
 }
 
-/* !.hero-scroll ::after :focus{
-  color: #3350e9;
-} */
-
 .hero-scroll :focus {
   color: #3350e9;
 }
@@ -152,6 +148,7 @@
       font-size: 72px;
       /* line-height: 0.9; */
       /* min-width: 597px; */
+      /* max-width: 597px; */
     }
 
     .hero-text-people{
