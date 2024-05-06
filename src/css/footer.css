@@ -3,7 +3,7 @@
 }
 
 .footer {
-  margin-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 .footer-div {
@@ -136,7 +136,7 @@
 
 @media (min-width: 768px) {
   .footer {
-    margin-bottom: 32px;
+    padding-bottom: 32px;
   }
 
   .footer-nav {

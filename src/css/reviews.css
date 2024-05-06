@@ -1,5 +1,5 @@
 .reviews-section {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .reviews-heading {
@@ -61,7 +61,7 @@
   }
 
   .reviews-section {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
 
   .reviews-heading {
@@ -108,7 +108,7 @@
   }
 
   .reviews-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .third-review {

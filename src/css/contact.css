@@ -3,7 +3,7 @@
 }
 
 .contact-section {
-  margin-bottom: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-flex {
@@ -130,7 +130,7 @@
     margin-bottom: 40px;
   }
   .contact-section {
-    margin-bottom: 80px;
+    padding-bottom: 80px;
   }
   .contact-flex {
     gap: 40px;
@@ -175,7 +175,7 @@
 
 @media screen and (min-width: 1280px) {
   .contact-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .contact-flex {
     display: flex;

@@ -63,6 +63,7 @@ function scrollToSection(event) {
       top: scrollToPosition,
       behavior: 'smooth',
     });
+    modal.classList.remove('is-open');
   }
 
   document.activeElement.blur();
