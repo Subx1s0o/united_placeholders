@@ -50,11 +50,20 @@ document.querySelectorAll('.form-input').forEach(input => {
 function scrollToSection(event) {
   event.preventDefault();
 
-  const targetId = event.target.getAttribute('href');
-  const targetSection = document.querySelector(targetId);
+  const targetSectionId = event.target.getAttribute('href').substr(1);
+  const targetSection = document.getElementById(targetSectionId);
 
   if (targetSection) {
-    targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    const windowHeight = window.innerHeight;
+    const sectionTop = targetSection.offsetTop;
+
+    // Розрахунок вертикальної позиції для прокрутки з відступом від верху вікна
+    const scrollToPosition = sectionTop - 100; // Тут можна вказати потрібний вам відступ
+
+    window.scrollTo({
+      top: scrollToPosition,
+      behavior: 'smooth',
+    });
   }
 
   document.activeElement.blur();
