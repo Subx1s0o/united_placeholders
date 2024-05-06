@@ -25,12 +25,12 @@ document.querySelectorAll('.form-input').forEach(input => {
       validIndicator.classList.remove('invalid');
       validIndicator.classList.add('valid');
       validIndicator.innerHTML =
-        '<svg width="7" height="7"><use href="img/icons.svg#icon-checkbox"></use></svg>';
+        '<svg width="7" height="7"><use href="/img/icons.svg#icon-checkbox"></use></svg>';
     } else {
       validIndicator.classList.remove('valid');
       validIndicator.classList.add('invalid');
       validIndicator.innerHTML =
-        '<svg width="7" height="7"><use href="img/icons.svg#icon-close"></use></svg>';
+        '<svg width="7" height="7"><use href="/img/icons.svg#icon-close"></use></svg>';
     }
   });
 });
