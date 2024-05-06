@@ -189,6 +189,9 @@ footer .container {
   .footer-subnav-a {
     padding: 15px 0;
   }
+  .footer-div {
+    padding: 40px 40px 28px 40px;
+  }
 }
 @media (min-width: 1280px) {
   .footer-title {
