@@ -10,19 +10,3 @@ modalBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   modal.classList.remove('is-open');
 });
-
-// Scroll down script
-function scrollToSection(sectionId) {
-  var section = document.getElementById(sectionId);
-  if (section) {
-    window.scrollTo({
-      top: section.offsetTop,
-      behavior: 'smooth',
-    });
-  } else {
-    console.error('Section with ID ' + sectionId + ' not found.');
-  }
-}
-
-// Коли кнопка буде готова
-// buttonLink.addEventListener('click', () => scrollToSection('Айді секції'));

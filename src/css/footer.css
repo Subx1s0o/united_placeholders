@@ -76,7 +76,7 @@ footer .container {
 
 .footer-subnav-a {
   color: #fbfbfb;
-
+  position: relative;
   font-size: 12px;
   font-weight: 500;
 

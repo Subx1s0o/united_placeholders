@@ -6,6 +6,12 @@
   margin-bottom: 24px;
 }
 
+.catalog-list-item-a {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .image-container {
   margin: 0 auto;
 }
@@ -23,9 +29,6 @@
   margin-bottom: 40px;
 }
 .catalog-list-item {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
   background: #f3f3f3;
