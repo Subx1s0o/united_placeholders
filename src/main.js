@@ -11,6 +11,15 @@ closeBtn.addEventListener('click', () => {
   modal.classList.remove('is-open');
 });
 
+window.addEventListener('resize', function () {
+  if (window.innerWidth > 1280) {
+    const elementsWithIsOpen = document.querySelectorAll('.is-open');
+    elementsWithIsOpen.forEach(function (element) {
+      element.classList.remove('is-open');
+    });
+  }
+});
+
 document.querySelectorAll('.form-input').forEach(input => {
   input.addEventListener('input', function () {
     const isValidInput = this.validity.valid;
@@ -37,7 +46,7 @@ document.querySelectorAll('.form-input').forEach(input => {
     }
   });
 });
-// Функція для скролінгу до секції
+
 function scrollToSection(event) {
   event.preventDefault();
 
@@ -48,12 +57,9 @@ function scrollToSection(event) {
     targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 
-  // Зняти фокус з активного елемента
   document.activeElement.blur();
 }
 
-// Додати обробник події для кожного посилання
 document.querySelectorAll('a').forEach(link => {
-  // Додати обробник події для кліку
   link.addEventListener('click', scrollToSection);
 });
