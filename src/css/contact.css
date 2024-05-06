@@ -85,6 +85,7 @@
 
 .submit-btn {
   padding: 12px 50px;
+  margin-top: 10px;
 }
 
 /*---------------TABLET VERSION---------------*/
@@ -124,6 +125,7 @@
   }
   .submit-btn {
     padding: 17px 63px;
+    margin-top: 14px;
   }
   .form-subtitle {
     margin-bottom: 32px;
