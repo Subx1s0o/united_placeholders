@@ -46,14 +46,13 @@ document.querySelectorAll('.form-input').forEach(input => {
     }
   });
 });
-
 function scrollToSection(event) {
   event.preventDefault();
 
-  const targetSectionId = event.target.getAttribute('href').substr(1);
-  const targetSection = document.getElementById(targetSectionId);
+  const targetId = event.target.getAttribute('href').substr(1);
+  const targetSection = document.getElementById(targetId);
 
-  if (targetSection) {
+  if (targetSection && targetId !== '') {
     const windowHeight = window.innerHeight;
     const sectionTop = targetSection.offsetTop;
 
@@ -69,6 +68,6 @@ function scrollToSection(event) {
   document.activeElement.blur();
 }
 
-document.querySelectorAll('a').forEach(link => {
+document.querySelectorAll('.smooth-scroll').forEach(link => {
   link.addEventListener('click', scrollToSection);
 });
