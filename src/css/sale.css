@@ -1,5 +1,5 @@
 .sale-section {
-  padding-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 .sale {
@@ -124,7 +124,7 @@
 
 @media (min-width: 768px) {
   .sale-section {
-    padding-bottom: 80px;
+    margin-bottom: 80px;
   }
   .all-cards {
     gap: 40px;
@@ -179,7 +179,7 @@
 
 @media (min-width: 1280px) {
   .sale-section {
-    padding-bottom: 100px;
+    margin-bottom: 100px;
   }
   .clock-present {
     padding: 80px 50px;

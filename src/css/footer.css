@@ -1,6 +1,9 @@
-footer .container {
-  padding-bottom: 20px;
+.footer .container {
   position: relative;
+}
+
+.footer {
+  margin-bottom: 20px;
 }
 
 .footer-div {
@@ -117,8 +120,8 @@ footer .container {
 }
 
 @media (min-width: 768px) {
-  footer .container {
-    padding-bottom: 32px;
+  .footer {
+    margin-bottom: 32px;
   }
 
   .footer-nav {

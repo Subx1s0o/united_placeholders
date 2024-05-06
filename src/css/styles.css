@@ -5,6 +5,7 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./general.css');
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./about.css');
@@ -14,6 +15,38 @@
 @import url('./reviews.css');
 @import url('./contact.css');
 @import url('./footer.css');
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Medium.woff2') format('woff2'),
+    url('../fonts/Gilroy-Medium.woff') format('woff');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Regular.woff2') format('woff2'),
+    url('../fonts/Gilroy-Regular.woff') format('woff');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Semibold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Semibold.woff') format('woff');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../fonts/Gilroy-Bold.woff2') format('woff2'),
+    url('../fonts/Gilroy-Bold.woff') format('woff');
+  font-weight: 700;
+  font-display: swap;
+}
 
 body {
   font-family: 'Gilroy', sans-serif;
@@ -26,130 +59,11 @@ body {
   padding-right: 20px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.blue-button {
-  color: #fbfbfb;
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-  border-radius: 16px;
-  background: #3350e9;
-  border: none;
-}
-
-@media (hover: hover) {
-  .blue-button:hover {
-    background: #1f3cd4;
-  }
-  .soc-icon:hover {
-    border-color: #fbfbfb;
-    opacity: 1;
-  }
-  .nav-hovers:hover {
-    color: #1f3cd4;
-    transform: translateY(3px);
-
-    font-weight: 600;
-  }
-  .nav-hovers:hover::after {
-    width: 100%;
-  }
-
-  .footer-hovers:hover {
-    color: #fbfbfb;
-    font-weight: 600;
-  }
-
-  .footer-hovers:hover::after {
-    width: 100%;
-  }
-}
-
-.nav-hovers::after {
-  background-color: #1f3cd4;
-  height: 2px;
-  bottom: 30px;
-  content: '';
-  position: absolute;
-  width: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: width 0.3s ease, left 0.3s ease;
-}
-
-.footer-hovers::after {
-  background-color: #fbfbfb;
-  height: 2px;
-  bottom: 5px;
-  content: '';
-  position: absolute;
-  width: 0%;
-  left: 50%;
-  transform: translateX(-50%);
-  transition: width 0.3s ease, left 0.3s ease;
-}
-
-.animate-me {
-  transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
-}
-
-.soc-icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 8px;
-  fill: rgba(251, 251, 251, 1);
-  border-radius: 10px;
-  border: 1px solid rgba(251, 251, 251, 0.1);
-  opacity: 0.8;
-}
-
-.new-title {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 32px;
-  letter-spacing: -0.64px;
-}
-
-.granny-p {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 18px;
-  letter-spacing: -0.28px;
-}
-
 @media (min-width: 768px) {
   .container {
     max-width: 768px;
     padding-left: 32px;
     padding-right: 32px;
-  }
-
-  .new-title {
-    font-size: 48px;
-    font-weight: 600;
-    line-height: 44px;
-    letter-spacing: -0.96px;
-  }
-
-  .granny-p {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: -0.32px;
   }
 }
 

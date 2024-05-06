@@ -1,0 +1,130 @@
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.blue-button {
+  color: #fbfbfb;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  border-radius: 16px;
+  background: #3350e9;
+  border: none;
+  outline: none;
+}
+
+@media (hover: hover) {
+  .blue-button:hover,
+  .blue-button:focus {
+    background: #1f3cd4;
+  }
+  .soc-icon:hover,
+  .soc-icon:focus {
+    border-color: #fbfbfb;
+    opacity: 1;
+    outline: none;
+  }
+  .nav-hovers:hover,
+  .nav-hovers:focus {
+    color: #1f3cd4;
+    transform: translateY(3px);
+    outline: none;
+    font-weight: 600;
+  }
+  .nav-hovers:hover::after,
+  .nav-hovers:focus::after {
+    width: 100%;
+  }
+
+  .footer-hovers:hover,
+  .footer-hovers:focus {
+    color: #fbfbfb;
+    font-weight: 600;
+    outline: none;
+  }
+
+  .footer-hovers:hover::after,
+  .footer-hovers:focus::after {
+    width: 100%;
+  }
+}
+
+.nav-hovers::after {
+  background-color: #1f3cd4;
+  height: 2px;
+  bottom: 30px;
+  content: '';
+  position: absolute;
+  width: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.footer-hovers::after {
+  background-color: #fbfbfb;
+  height: 2px;
+  bottom: 5px;
+  content: '';
+  position: absolute;
+  width: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.animate-me {
+  transition: all cubic-bezier(0.45, 0.05, 0.55, 0.95) 250ms;
+}
+
+.soc-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  fill: rgba(251, 251, 251, 1);
+  border-radius: 10px;
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  opacity: 0.8;
+  outline: none;
+}
+
+.new-title {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.64px;
+}
+
+.granny-p {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+}
+
+@media (min-width: 768px) {
+  .new-title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 44px;
+    letter-spacing: -0.96px;
+  }
+
+  .granny-p {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
+}
