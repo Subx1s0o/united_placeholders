@@ -67,7 +67,6 @@
 
 .prise-present-sale {
   display: flex;
-  flex-direction: row;
   align-items: center;
   gap: 9px;
   margin-bottom: 28px;
@@ -159,9 +158,6 @@
 
   .box-content {
     max-width: 436px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
   }
 
   .aside {
