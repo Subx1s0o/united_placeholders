@@ -57,6 +57,18 @@
   .footer-hovers:focus::after {
     width: 100%;
   }
+
+  .footer-hovers-under:hover,
+  .footer-hovers-under:focus {
+    color: #fbfbfb;
+    font-weight: 600;
+    outline: none;
+  }
+
+  .footer-hovers-under:hover::after,
+  .footer-hovers-under:focus::after {
+    width: 100%;
+  }
 }
 
 .nav-hovers::after {
@@ -75,6 +87,18 @@
   background-color: #fbfbfb;
   height: 2px;
   bottom: 5px;
+  content: '';
+  position: absolute;
+  width: 0%;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.3s ease, left 0.3s ease;
+}
+
+.footer-hovers-under::after {
+  background-color: #fbfbfb;
+  height: 2px;
+  bottom: -7px;
   content: '';
   position: absolute;
   width: 0%;

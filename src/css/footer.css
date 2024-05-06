@@ -29,6 +29,11 @@
 }
 
 .footer-number {
+  color: #fbfbfb;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
   display: inline-block;
   padding: 14px 20px;
   border-radius: 10px;
@@ -86,6 +91,14 @@
   line-height: 16px; /* 133.333% */
 }
 
+.footer-address-a {
+  color: #fbfbfb;
+  font-size: 12px;
+  font-weight: 500;
+
+  line-height: 16px; /* 133.333% */
+}
+
 .footer-subnav {
   text-align: start;
   max-width: 147px;
@@ -95,6 +108,7 @@
 }
 
 .footer-address {
+  position: relative;
   max-width: 83px;
   text-align: start;
 }
@@ -112,6 +126,7 @@
   font-weight: 500;
   line-height: 14px;
   letter-spacing: -0.2px;
+  position: relative;
 }
 
 .footer-under-content-ul {
@@ -197,6 +212,11 @@
   }
 }
 @media (min-width: 1280px) {
+  .footer-number:hover,
+  .footer-number:focus {
+    background-color: #fbfbfb;
+    color: #0c0c0c;
+  }
   .footer-title {
     position: absolute;
     top: 40px;

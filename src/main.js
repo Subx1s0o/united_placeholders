@@ -37,3 +37,23 @@ document.querySelectorAll('.form-input').forEach(input => {
     }
   });
 });
+// Функція для скролінгу до секції
+function scrollToSection(event) {
+  event.preventDefault();
+
+  const targetId = event.target.getAttribute('href');
+  const targetSection = document.querySelector(targetId);
+
+  if (targetSection) {
+    targetSection.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+
+  // Зняти фокус з активного елемента
+  document.activeElement.blur();
+}
+
+// Додати обробник події для кожного посилання
+document.querySelectorAll('a').forEach(link => {
+  // Додати обробник події для кліку
+  link.addEventListener('click', scrollToSection);
+});
