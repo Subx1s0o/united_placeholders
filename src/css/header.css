@@ -247,6 +247,9 @@
 }
 
 @media screen and (min-width: 768px) {
+  .header-logo {
+    font-size: 20px;
+  }
   .menu-sidebar {
     width: 330px;
     background-image: url('../img/header/header-tab-phone.png');
