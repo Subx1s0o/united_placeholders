@@ -10,27 +10,30 @@ modalBtn.addEventListener('click', () => {
 closeBtn.addEventListener('click', () => {
   modal.classList.remove('is-open');
 });
+
 document.querySelectorAll('.form-input').forEach(input => {
   input.addEventListener('input', function () {
     const isValidInput = this.validity.valid;
     const validIndicator = this.parentElement.querySelector('.valid-indicator');
+    const validIconCheckbox = validIndicator.querySelector(
+      '.valid-icon-checkbox'
+    );
+    const validIconClose = validIndicator.querySelector('.valid-icon-close');
 
-    if (this.value.trim().length >= this.getAttribute('minlength')) {
-      validIndicator.classList.add('show');
+    if (isValidInput) {
+      validIndicator.style.opacity = 1;
+      validIconCheckbox.style.opacity = 1;
+      validIconClose.style.opacity = 0;
     } else {
-      validIndicator.classList.remove('show');
+      validIndicator.style.opacity = 1;
+      validIconCheckbox.style.opacity = 0;
+      validIconClose.style.opacity = 1;
     }
 
-    if (this.value.trim() && isValidInput) {
-      validIndicator.classList.remove('invalid');
-      validIndicator.classList.add('valid');
-      validIndicator.innerHTML =
-        '<svg width="7" height="7"><use href="/img/icons.svg#icon-checkbox"></use></svg>';
+    if (this.value.trim().length >= parseInt(this.getAttribute('minlength'))) {
+      validIndicator.style.opacity = 1;
     } else {
-      validIndicator.classList.remove('valid');
-      validIndicator.classList.add('invalid');
-      validIndicator.innerHTML =
-        '<svg width="7" height="7"><use href="/img/icons.svg#icon-close"></use></svg>';
+      validIndicator.style.opacity = 0;
     }
   });
 });
