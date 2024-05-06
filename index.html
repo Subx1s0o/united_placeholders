@@ -14,10 +14,10 @@
     />
     
     <script type="module" crossorigin src="/united_placeholders/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/united_placeholders/assets/index-fd78ae8e.css">
+    <link rel="stylesheet" href="/united_placeholders/assets/index-9fba6d3a.css">
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
   <div class="container header-container">
     <a class="header-logo" href="index.html">watchcharm</a>
 
@@ -895,9 +895,9 @@
           </ul>
         </div>
 
-        <div class="footer-number">
-          <a href="tel:+380684439426">+380 (68) 443-94-26</a>
-        </div>
+        <a class="footer-number animate-me" href="tel:+380684439426"
+          >+380 (68) 443-94-26</a
+        >
       </div>
       <div class="footer-title">
         <p class="footer-title-text">
@@ -911,7 +911,9 @@
           <li>
             <ul class="footer-subnav">
               <li>
-                <a class="footer-subnav-a footer-hovers animate-me" href=""
+                <a
+                  class="footer-subnav-a footer-hovers animate-me"
+                  href="#header"
                   >Home</a
                 >
               </li>
@@ -952,7 +954,7 @@
           </li>
           <li class="footer-address">
             <a
-              class="footer-subnav-a"
+              class="footer-address-a footer-hovers-under animate-me"
               href="https://maps.google.com"
               target="_blank"
               >1678 S. Pioneer Road Salt Lake City UT 84104</a
@@ -966,12 +968,16 @@
         </p>
         <ul class="footer-under-content-ul">
           <li>
-            <a class="footer-under-content-text" href="/terms-of-service.html"
+            <a
+              class="footer-under-content-text footer-hovers-under animate-me"
+              href="/terms-of-service.html"
               >Terms of Service</a
             >
           </li>
           <li>
-            <a class="footer-under-content-text" href="/privacy-policy.html"
+            <a
+              class="footer-under-content-text footer-hovers-under animate-me"
+              href="/privacy-policy.html"
               >Privacy Policy</a
             >
           </li>
