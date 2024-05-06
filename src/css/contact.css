@@ -91,6 +91,9 @@
 /*---------------TABLET VERSION---------------*/
 
 @media screen and (min-width: 768px) {
+  .contact-title {
+    margin-bottom: 40px;
+  }
   .contact-section {
     padding-bottom: 80px;
   }
