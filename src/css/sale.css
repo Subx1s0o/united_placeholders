@@ -72,28 +72,27 @@
   margin-bottom: 28px;
 }
 
-.prise-sale {
+.price-first-p {
   font-weight: 600;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #fbfbfb;
-  border-radius: 8px;
-  width: 68px;
-  height: 32px;
-  background: rgba(251, 251, 251, 0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.prise {
+.price-second-p {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16667;
   letter-spacing: -0.02em;
   text-decoration: line-through;
   color: rgba(251, 251, 251, 0.5);
+}
+
+.prise-sale {
+  border-radius: 8px;
+  padding: 8px 12px;
+  background: rgba(251, 251, 251, 0.1);
 }
 
 .present {
@@ -173,6 +172,11 @@
   }
   .present {
     margin-bottom: 40px;
+  }
+  .aside-content {
+    font-size: 32px;
+    letter-spacing: -0.64px;
+    line-height: 1.12;
   }
 }
 
