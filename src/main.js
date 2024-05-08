@@ -49,26 +49,27 @@ document.querySelectorAll('.form-input').forEach(input => {
 function scrollToSection(event) {
   event.preventDefault();
 
-  const targetId = event.target.getAttribute('href').substr(1);
+  let targetId;
+  if (event.target.tagName === 'A') {
+    targetId = event.target.getAttribute('href').substr(1);
+  } else if (event.target.tagName === 'BUTTON') {
+    targetId = event.target.getAttribute('data-target');
+  }
+
   const targetSection = document.getElementById(targetId);
 
   if (targetSection && targetId !== '') {
-    const windowHeight = window.innerHeight;
     const sectionTop = targetSection.offsetTop;
 
-    // Розрахунок вертикальної позиції для прокрутки з відступом від верху вікна
-    const scrollToPosition = sectionTop - 100; // Тут можна вказати потрібний вам відступ
+    const scrollToPosition = sectionTop - 100;
 
     window.scrollTo({
       top: scrollToPosition,
       behavior: 'smooth',
     });
-    modal.classList.remove('is-open');
   }
-
-  document.activeElement.blur();
 }
 
-document.querySelectorAll('.smooth-scroll').forEach(link => {
-  link.addEventListener('click', scrollToSection);
+document.querySelectorAll('.smooth-scroll').forEach(element => {
+  element.addEventListener('click', scrollToSection);
 });
