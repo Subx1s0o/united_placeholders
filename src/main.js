@@ -46,13 +46,17 @@ document.querySelectorAll('.form-input').forEach(input => {
     }
   });
 });
+
 function scrollToSection(event) {
   event.preventDefault();
 
   let targetId;
-  if (event.target.tagName === 'A') {
+  if (event.target.tagName === 'A' && event.target.getAttribute('href')) {
     targetId = event.target.getAttribute('href').substr(1);
-  } else if (event.target.tagName === 'BUTTON') {
+  } else if (
+    event.target.tagName === 'BUTTON' &&
+    event.target.getAttribute('data-target')
+  ) {
     targetId = event.target.getAttribute('data-target');
   }
 
